@@ -1,0 +1,6 @@
+---
+- name: ansible to manage server
+  hosts: all
+  become: yes
+  roles:
+    - setup
